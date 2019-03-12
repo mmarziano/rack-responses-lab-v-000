@@ -1,5 +1,5 @@
 class Application
-  def call
+  def call(time)
     if time.now < 12 
       resp.write "Good Morning!"
     else 
