@@ -1,5 +1,5 @@
 class Application
-  def call(time)
+  def call(env)
     
     resp = Rack::Response.new
     binding.pry
